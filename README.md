@@ -101,6 +101,7 @@ client/package.json
 ```
 
 ### folder structure
+> you choose how to do this... no set way
 in client dir
 ```
 $ mkdir src/components
@@ -109,3 +110,10 @@ $ mkdir src/hooks
 $ mkdir src/components/auth
 $ mkdir src/components/shared 
 ```
+
+### react router basic setup
+> you choose how to do this... no 1 set way 
+- add routes to index.js/app.js
+- index js wrap with BrowserRouter
+- create a navbar
+
