@@ -69,3 +69,43 @@ end
 ```
 rails db:migrate
 ```
+
+## Front End Setup
+
+in rails project create a react-app
+why do I do this in my rails app? they are two separate apps
+  - organized,
+  - also i can share a github repo
+  - in a sense they im using them as one 
+why do I call it client?
+  - i don't have to, client is just is used as the frontend
+
+```
+ yarn create react-app client
+```
+
+### add third party packages (can always add more later as needed)
+- react-router-dom
+- axios
+- react-bootstrap
+
+in client dir
+```
+yarn add axios
+```
+
+add proxy
+client/package.json
+```
+"proxy": "http://localhost:3001",
+```
+
+### folder structure
+in client dir
+```
+$ mkdir src/components
+$ mkdir src/providers
+$ mkdir src/hooks
+$ mkdir src/components/auth
+$ mkdir src/components/shared 
+```
