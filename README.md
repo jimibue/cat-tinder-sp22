@@ -117,3 +117,13 @@ $ mkdir src/components/shared
 - index js wrap with BrowserRouter
 - create a navbar
 
+
+### Auth setup (Using a provider)
+
+
+
+
+
+
+
+
